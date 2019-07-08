@@ -49,7 +49,7 @@ pip install -r requirements.txt
  199        images.append(_draw_character(c))
 ```
 
-#1. 验证码图片分割为单个字符的图片
+# 1. 验证码图片分割为单个字符的图片
 
 执行
 ```bash
@@ -59,14 +59,14 @@ python extract_single_letters_from_captchas.py
 为了减少机器学习的工作量，我们将验证码图片分割为4个字符的图片
 分割的图片将保存在extracted_letter_images文件夹中
 
-#2. 训练模型
+# 2. 训练模型
 
 ```bash
 python train_model.py
 ```
 可能需要十几分钟的时间，如果感兴趣也可以尝试采用其他模型，比如常规的线性回归到更深的神经网络
 
-#3. 用训练好的模型识别验证码
+# 3. 用训练好的模型识别验证码
 
 ```bash
 python solve_captchas_with_model.py
