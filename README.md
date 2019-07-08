@@ -9,8 +9,18 @@
 
 # 0.前期准备
 ## 环境搭建
-代码在Python3.7的环境下调试通过，但讲道理Python3.x应该都没问题
+代码在Python3.7的环境下调试通过，但讲道理Python3.x应该都没问题\
 
+### 安装Python3.7
+
+可参考[廖雪峰的博客（含视频）](https://www.liaoxuefeng.com/wiki/1016959663602400/1016959856222624)
+
+
+进阶的同学可以使用virtualenv来创建一个虚拟环境，以免不同代码之间的依赖相互影响：[virtualenv教程](https://www.liaoxuefeng.com/wiki/1016959663602400/1019273143120480)
+
+或者使用PyCharm来新建虚拟环境：[Pycharm虚拟环境（Virtualenv）配置](https://www.jianshu.com/p/dcb281ee564e)
+
+### 安装依赖
 Python依赖都已记录在requirements.txt中，请尝试执行
 ```bash
 pip install -r requirements.txt
