@@ -46,7 +46,7 @@ pip install -r requirements.txt
  196    for c in chars:
  197       # if random.random() > 0.5:
  198       images.append(_draw_character(" "))
- 199        images.append(_draw_character(c))
+ 199       images.append(_draw_character(c))
 ```
 
 # 1. 验证码图片分割为单个字符的图片
